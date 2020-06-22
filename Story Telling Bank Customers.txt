@@ -1,0 +1,44 @@
+Open the link to view Tableau dektop dashboard
+https://public.tableau.com/profile/akshay.kawatra1379#!/vizhome/StoryRepresentationofCustomesofaBankinUk/StoryRepresentationofCustomesofaBankinUk
+
+
+
+1)check the file if it is in excel,csv,data is loded correct or not
+2)then open the file in tableau
+      a)Check all fields are populated or not
+      b)Check if there is null values or not
+      c)check the data type:-
+             Numerical---> should be numericals   (measures)
+             charachter---> should be charachter  (dimensions)
+             country,stete,city----> geographical (geographical, change as state)
+3)Prepare set of question that we need to find out according to buisness need in dashboard
+4)then create Worksheets accordingly 
+
+
+Questions---
+  1) Create Map of number of customers in each state of uk
+  2) Distribution by balance(% of customers vs balance)
+  3) Distribution by age    (% of customers vs age grp )
+  4) Change Age and balance groups (created bins)
+  5) Job classification tre map
+
+Answers :----
+  1) we can clearly see that England has highest customers
+  2) 45% of customers have less than 30k in their account
+  3) 40% of customers are in age grp of 21-30
+  4) 54% are males and 46% are females
+  5) 49 % -- white collar , 26% blue collar, 25 % other
+
+These answers can be further split into different age and balance group bins(or new story acc to diff regions).....
+
+------------------------------------------------------------ 
+
+
+                  STORY LINE
+
+  1) This Bank Customer Baseline  (overall customer segmentation of bank in uk)
+     By regions :-
+  2) England --- has 70% white collar workers
+  3) Scotland--- Customers in Scotland Is predominantly males in there mid 40's and early 50's
+  4) Whales  --- Data for whales and above avg representation of mid sized balances
+  5) Ireland --- Northern Ireland is mostly reprentated by Female in younger Age group
